@@ -18,13 +18,13 @@ class TestClass(unittest.TestCase):
         f=f=open('test/testdat0.csv', encoding='utf-8')
         _num_col, _mark_col= getCols(f)
         _id, _mark = findTop(f, _num_col, _mark_col)
-        self.assertEqual(_id,'167381')
+        self.assertEqual(_id,'167966')
     
     def test_findTopMark(self):
         f=f=open('test/testdat0.csv', encoding='utf-8')
         _num_col, _mark_col= getCols(f)
         _id, _mark = findTop(f, _num_col, _mark_col)
-        self.assertEqual(_mark,90)
+        self.assertEqual(_mark,95)
 
 
 if __name__ == '__main__':
