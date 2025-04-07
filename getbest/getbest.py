@@ -29,7 +29,8 @@ def findTop(f,num_col, mark_col):
             best_idx=num ##set best_idx equal to current student number
     return best_idx, best
 
-f = open(sys.argv[1])
-_num_col, _mark_col = getCols(f)   ##Variable names start with underscores for clarity
-best_idx, best = findTop(f,_num_col,_mark_col)
-print("The top student was student %s with %d"%(best_idx,best))
+if __name__ == "__main__": ##Only run when ran directly rather than when testing.
+    f = open(sys.argv[1])
+    _num_col, _mark_col = getCols(f)   ##Variable names start with underscores for clarity
+    best_idx, best = findTop(f,_num_col,_mark_col)
+    print("The top student was student %s with %d"%(best_idx,best))
