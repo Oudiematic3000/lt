@@ -1,5 +1,7 @@
 # GetBest.py Lab Test
 Authored by **nixkj** and **morisscofield**
+Modified by **Oudiematic3000**
+ **Ariel Oudmayer - 2695316**
 ## Description
 getbest.py is a program that returns the student with the highest mark given a data file containing (at least) students' student numbers and marks in correlating columns.
 
